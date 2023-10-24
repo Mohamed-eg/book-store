@@ -1,0 +1,33 @@
+@media only screen and(max-width:650px) {
+      nav{
+            padding: 10px;
+            .navCH1{
+                  margin: 0;
+               #select{
+                     font-size: 15px; 
+            }  
+            }
+            .navCH3{
+                  font-size: 16px;
+            }
+            .navCH4{
+                  display: none;
+            }
+            .navCHs{
+                  width: 15%;
+            }
+
+      }
+}
+@media only screen and(max-width:500px){
+      .contaner .card{
+            width: min-content;
+            flex-direction: column;
+             img {
+                  border-radius: 20px 20px 0px 0px;
+            }
+      }
+      .navCH3{
+            display: none;
+      }
+}

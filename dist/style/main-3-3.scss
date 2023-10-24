@@ -1,0 +1,28 @@
+body{
+      background: linear-gradient(360deg,  rgb(0, 166, 255) , rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255) );
+}
+#atherSec{
+      border: 1px solid #888;
+      border-width: 2px 0 0 0 ;
+      margin: 10px 0px;
+      padding: 20px 0px;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+}
+#atherSec div{
+      width: 25%;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      flex-direction: column;
+}
+#atherSec div h4{
+      padding: 7px;
+}
+#atherSec div img{
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+}
